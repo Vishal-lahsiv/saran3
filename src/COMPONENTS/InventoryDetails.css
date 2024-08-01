@@ -1,0 +1,45 @@
+.inventoryDetails {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .inventoryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .inventoryItem {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inventoryItem img {
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .inventoryText {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .inventoryText h2 {
+    margin: 10px 0;
+  }
+  
+  .inventoryText p {
+    margin: 0;
+  }
+  
